@@ -12,3 +12,4 @@ Data Split and Resampling: The data was split into training and testing sets. Th
 
 
 Feature Scaling: All features were scaled using StandardScaler to normalize the data distribution, which is crucial for distance-based algorithms (like KNN and SVM) and improves convergence for others.
+DATASET USED FOR THE CLASSIFICATION PROBLEM : https://www.kaggle.com/datasets/prachi13/customer-analytics
