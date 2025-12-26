@@ -4,13 +4,32 @@ The primary goal of this project is to build and evaluate machine learning model
 Python Version: 3.13.2
 Packages:pandas,numpy,seaborn,matplotlib,sklearn
 
-## Project steps
-The project systematically compares several common classification algorithms to find the optimal model and hyperparameters.
-EDA:Exploratory data analysis was completed.
-Categorical Encoding: Nominal features (Warehouse_block, Mode_of_Shipment, Product_importance, Gender) were converted to numerical format using Label Encoding.
-Feature Creation: New ratio features were engineered to potentially improve model performance.
-Data Split  The data was split into training and testing sets. 
-Feature Scaling: All features were scaled using StandardScaler to normalize the data distribution, which is crucial for distance-based algorithms (like KNN and SVM) and improves convergence for others.
+## 🛠️ Project Workflow & Methodology
+
+The project follows a structured machine learning pipeline, from raw data exploration to final model optimization.
+
+### 1. Exploratory Data Analysis (EDA)
+Comprehensive EDA was conducted to understand feature distributions, identify outliers, and uncover correlations between shipping variables and delivery outcomes.
+
+### 2. Preprocessing & Feature Engineering
+To prepare the data for the algorithms, the following steps were taken:
+
+* **Categorical Encoding:** Nominal features (`Warehouse_block`, `Mode_of_Shipment`, `Product_importance`, and `Gender`) were transformed using **Label Encoding**.
+* **Feature Creation:** Engineered new ratio-based features to capture complex relationships between variables, enhancing the predictive power of the models.
+* **Feature Scaling:** Applied **StandardScaler** to normalize the data. This was a critical step to ensure distance-based models like **KNN** and **SVM** performed correctly and to speed up convergence for **Logistic Regression**.
+
+
+
+### 3. Data Splitting
+The processed dataset was partitioned into **Training** and **Testing** sets to ensure that model evaluation was performed on unseen data, preventing overfitting.
+
+### 4. Model Selection & Tuning
+As detailed in the results section, we systematically compared:
+* Distance-based models (SVM, KNN)
+* Linear models (Logistic Regression)
+* Ensemble/Tree models (Random Forest, XGBoost, Decision Tree)
+
+Hyperparameter optimization was then executed via **GridSearchCV** and **RandomizedSearchCV**..
 ## EDA
 Exploratory data analysis was completed.Here are some key insights:
 ![newww](https://github.com/user-attachments/assets/c0c76c64-0f4f-4334-89bc-71fec2b2d07c)
