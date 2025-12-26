@@ -43,14 +43,29 @@ The **Support Vector Machine (SVM)** achieved the highest baseline accuracy.
 
 > **Conclusion:** The SVM model is the top performer for this dataset with a baseline accuracy of **0.68**.
 
-## Hyperparameter tuning
-Hyperparameter tuning was done using GridSearchCV and RandomizedSearchCV. After that i reevaluated the metrics:
-SVM:0.68
-Random Forest Classifier: 0.68
-Logistic Regression:0.66
-KNN:0.66
-Decicion Tree: 0.68
-XGBoost:0.68
+## ⚙️ Hyperparameter Tuning & Final Results
+
+To optimize the models, I performed hyperparameter tuning using **GridSearchCV** and **RandomizedSearchCV**. This process refined the model parameters to achieve the highest possible predictive power.
+
+### 📊 Final Model Performance
+After tuning, multiple models reached a top accuracy of **0.68**. 
+
+| Model | Baseline Accuracy | Tuned Accuracy | Status |
+| :--- | :---: | :---: | :---: |
+| **Support Vector Machine (SVM)** | 0.68 | **0.68** | — |
+| **Random Forest Classifier** | 0.65 | **0.68** | 📈 Improved |
+| **XGBoost** | 0.65 | **0.68** | 📈 Improved |
+| **Decision Tree** | 0.64 | **0.68** | 📈 Improved |
+| Logistic Regression | 0.66 | 0.66 | — |
+| K-Nearest Neighbor (KNN) | 0.66 | 0.66 | — |
+
+
+
+### 🛠️ Optimization Techniques
+* **GridSearchCV:** Used for an exhaustive search over specified parameter values for the models.
+* **RandomizedSearchCV:** Used for a fixed number of parameter settings sampled from specified distributions (more efficient for complex models like XGBoost).
+
+> **Final Analysis:** Hyperparameter tuning was highly effective for the Tree-based models (Random Forest, XGBoost, and Decision Tree), bringing their performance up to match the SVM baseline of **0.68**.
 ## Model Performance 
 Based on Accuracies, every model seem to have the same accuracy score after hyperparameter tuning.
 Although, depending on the business problem, some metrics will be key, like precicion, if we would want to classify the positive class with certainty.
