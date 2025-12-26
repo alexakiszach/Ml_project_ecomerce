@@ -1,8 +1,23 @@
 # Data science Late delivery prediction:Project Overview
 The primary goal of this project is to build and evaluate machine learning models to accurately predict whether an e-commerce order will reach the customer on time (Target_On_Time = 1 or 0).
-##  Codes and resources Used
-Python Version: 3.13.2
-Packages:pandas,numpy,seaborn,matplotlib,sklearn
+## 💻 Tech Stack & Environment
+
+This project was developed using the following environment and libraries:
+
+### **Language & Version**
+* **Python:** `3.13.2`
+
+### **Libraries & Frameworks**
+| Library | Purpose |
+| :--- | :--- |
+| **Pandas** | Data manipulation and analysis |
+| **NumPy** | Numerical computing and array processing |
+| **Matplotlib** | Core data visualization |
+| **Seaborn** | Statistical data visualization |
+| **Scikit-learn (sklearn)** | Machine Learning, preprocessing, and evaluation |
+
+
+
 
 ## 🛠️ Project Workflow & Methodology
 
