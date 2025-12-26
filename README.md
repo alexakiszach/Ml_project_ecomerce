@@ -10,7 +10,7 @@ Categorical Encoding: Nominal features (Warehouse_block, Mode_of_Shipment, Produ
 Feature Creation: Three new ratio features were engineered to potentially improve model performance.
 
 Data Split and Resampling: The data was split into training and testing sets. The training data was then balanced using the ADASYN (Adaptive Synthetic Sampling) technique to ensure models do not become biased toward the majority class (on-time delivery).
-#HOW
+# HOW
 
 
 Feature Scaling: All features were scaled using StandardScaler to normalize the data distribution, which is crucial for distance-based algorithms (like KNN and SVM) and improves convergence for others.
