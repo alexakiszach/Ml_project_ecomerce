@@ -17,13 +17,31 @@ Exploratory data analysis was completed.Here are some key insights:
 
 ![jpg](https://github.com/user-attachments/assets/4e868345-884a-4d29-b637-805ace3f77b1)
 ## Model Building
-Created the following models:Decicion tree,K-Nearest neighbor,Support Vector Machine,Random Forest Classifier, XGBoost,Logistig Regression.The models then were evaluated, based on their accuracy,f1 score, precicion,recall and AUC.Accuracy was used as the main metric. The baseline metrics of the SVM algorithm, brought the best accuracy of 0.68
-SVM:0.68
-Random Forest Classifier: 0.65
-Logistic Regression:0.66
-KNN:0.66
-Decicion Tree: 0.64
-XGBoost:0.65
+## 🤖 Model Comparison & Evaluation
+
+I trained and evaluated six different Machine Learning models. While I tracked **F1 Score, Precision, Recall, and AUC**, **Accuracy** was used as the primary metric to determine the best performing model.
+
+## 📈 Results Summary
+The **Support Vector Machine (SVM)** achieved the highest baseline accuracy.
+
+| Model | Accuracy |
+| :--- | :---: |
+| **Support Vector Machine (SVM)** | **0.68** |
+| Logistic Regression | 0.66 |
+| K-Nearest Neighbor (KNN) | 0.66 |
+| Random Forest Classifier | 0.65 |
+| XGBoost | 0.65 |
+| Decision Tree | 0.64 |
+
+### 🛠️ Models Created
+* **Decision Tree**
+* **K-Nearest Neighbor (KNN)**
+* **Support Vector Machine (SVM)**
+* **Random Forest Classifier**
+* **XGBoost**
+* **Logistic Regression**
+
+> **Conclusion:** The SVM model is the top performer for this dataset with a baseline accuracy of **0.68**.
 
 ## Hyperparameter tuning
 Hyperparameter tuning was done using GridSearchCV and RandomizedSearchCV. After that i reevaluated the metrics:
