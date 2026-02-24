@@ -91,7 +91,7 @@ After tuning, multiple models reached a top accuracy of **0.68**.
 | **XGBoost** | 0.65 | **0.68** | 📈 Improved |
 | **Decision Tree** | 0.643 | **0.675** | 📈 Improved |
 | Logistic Regression | 0.655 | 0.659 | — |
-| K-Nearest Neighbor (KNN) | 0.656 | 0.68 | — |
+| K-Nearest Neighbor (KNN) | 0.656 | 0.68 | Improved |
 
 
 
