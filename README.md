@@ -1,5 +1,5 @@
 # Data science Late delivery prediction:Project Overview
-The primary goal of this project is to build and evaluate machine learning models to accurately predict whether an e-commerce order will reach the customer on time (Target_On_Time = 1 or 0).
+The primary goal of this project is to build and evaluate machine learning models to accurately predict whether an e-commerce order will reach the customer on time (late deliery = 1 or not late =0).
 ## 💻 Tech Stack & Environment
 
 This project was developed using the following environment and libraries:
@@ -60,12 +60,12 @@ The **Support Vector Machine (SVM)** achieved the highest baseline accuracy.
 
 | Model | Accuracy |
 | :--- | :---: |
-| **Support Vector Machine (SVM)** | **0.68** |
-| Logistic Regression | 0.66 |
-| K-Nearest Neighbor (KNN) | 0.66 |
-| Random Forest Classifier | 0.65 |
+| **Support Vector Machine (SVM)** | **0.678** |
+| Logistic Regression | 0.655 |
+| K-Nearest Neighbor (KNN) | 0.656 |
+| Random Forest Classifier | 0.651 |
 | XGBoost | 0.65 |
-| Decision Tree | 0.64 |
+| Decision Tree | 0.642 |
 
 ### 🛠️ Models Created
 * **Decision Tree**
@@ -86,12 +86,12 @@ After tuning, multiple models reached a top accuracy of **0.68**.
 
 | Model | Baseline Accuracy | Tuned Accuracy | Status |
 | :--- | :---: | :---: | :---: |
-| **Support Vector Machine (SVM)** | 0.68 | **0.68** | — |
-| **Random Forest Classifier** | 0.65 | **0.68** | 📈 Improved |
+| **Support Vector Machine (SVM)** | 0.68 | **0.678** | — |
+| **Random Forest Classifier** | 0.651 | **0.677** | 📈 Improved |
 | **XGBoost** | 0.65 | **0.68** | 📈 Improved |
-| **Decision Tree** | 0.64 | **0.68** | 📈 Improved |
-| Logistic Regression | 0.66 | 0.66 | — |
-| K-Nearest Neighbor (KNN) | 0.66 | 0.66 | — |
+| **Decision Tree** | 0.643 | **0.675** | 📈 Improved |
+| Logistic Regression | 0.655 | 0.659 | — |
+| K-Nearest Neighbor (KNN) | 0.656 | 0.68 | — |
 
 
 
@@ -101,7 +101,7 @@ After tuning, multiple models reached a top accuracy of **0.68**.
 
 > **Final Analysis:** Hyperparameter tuning was highly effective for the Tree-based models (Random Forest, XGBoost, and Decision Tree), bringing their performance up to match the SVM baseline of **0.68**.
 ## Model Performance 
-Based on Accuracies, every model seem to have the same accuracy score after hyperparameter tuning.
+Based on Accuracies, every model seem to have  almost the same accuracy score after hyperparameter tuning.
 Although, depending on the business problem, some metrics will be key, like precicion, if we would want to classify the positive class with certainty.
 
 
