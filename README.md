@@ -86,7 +86,7 @@ After tuning, multiple models reached a top accuracy of **0.68**.
 
 | Model | Baseline Accuracy | Tuned Accuracy | Status |
 | :--- | :---: | :---: | :---: |
-| **Support Vector Machine (SVM)** | 0.68 | **0.678** | — |
+| **Support Vector Machine (SVM)** | 0.678 | **0.678** | — |
 | **Random Forest Classifier** | 0.651 | **0.677** | 📈 Improved |
 | **XGBoost** | 0.65 | **0.68** | 📈 Improved |
 | **Decision Tree** | 0.643 | **0.675** | 📈 Improved |
