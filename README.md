@@ -16,8 +16,9 @@ This project was developed using the following environment and libraries:
 | **Seaborn** | Statistical data visualization |
 | **Scikit-learn (sklearn)** | Machine Learning, preprocessing, and evaluation |
 
-
-
+## **pip install**
+The requirements.txt file contains the core libraries needed to run this project.
+Run pip install -r requirements.txt in your terminal to access them
 
 ## 🛠️ Project Workflow & Methodology
 
