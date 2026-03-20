@@ -61,12 +61,12 @@ The **Support Vector Machine (SVM)** achieved the highest baseline accuracy.
 
 | Model | Accuracy |
 | :--- | :---: |
-| **Support Vector Machine (SVM)** | **0.678** |
-| Logistic Regression | 0.655 |
-| K-Nearest Neighbor (KNN) | 0.656 |
-| Random Forest Classifier | 0.651 |
-| XGBoost | 0.65 |
-| Decision Tree | 0.642 |
+| **Support Vector Machine (SVM)** | **0.666** |
+| Logistic Regression | 0.658 |
+| K-Nearest Neighbor (KNN) | 0.640 |
+| Random Forest Classifier | 0.660 |
+| XGBoost | 0.655 |
+| Decision Tree | 0.641 |
 
 ### 🛠️ Models Created
 * **Decision Tree**
@@ -87,12 +87,12 @@ After tuning, multiple models reached a top accuracy of **0.68**.
 
 | Model | Baseline Accuracy | Tuned Accuracy | Status |
 | :--- | :---: | :---: | :---: |
-| **Support Vector Machine (SVM)** | 0.678 | **0.678** | — |
-| **Random Forest Classifier** | 0.651 | **0.677** | 📈 Improved |
-| **XGBoost** | 0.65 | **0.68** | 📈 Improved |
-| **Decision Tree** | 0.643 | **0.675** | 📈 Improved |
-| Logistic Regression | 0.655 | 0.659 | — |
-| K-Nearest Neighbor (KNN) | 0.656 | 0.68 | Improved |
+| **Support Vector Machine (SVM)** | 0.666 | **0.666** | — |
+| **Random Forest Classifier** | 0.660 | **0.678** | 📈 Improved |
+| **XGBoost** | 0.655 | **0.68** | 📈 Improved |
+| **Decision Tree** | 0.641 | **0.679** | 📈 Improved |
+| Logistic Regression | 0.658 | 0.655 | — |
+| K-Nearest Neighbor (KNN) | 0.640 | 0.653 | Improved |
 
 
 
